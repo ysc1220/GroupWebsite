@@ -1,9 +1,9 @@
 # Site settings
-title: Richard Feynman
-email: richard@university.edu
-description: Academic webpage of Dr. Richard Feynman
-baseurl: ""
-url: ""
+title: Cho Research Group
+email: ycho12@uh.edu
+description: Homepage of Cho Research Group!
+baseurl: 
+url: http://ysc.chem.uh.edu
 
 # Google analytics ID: Uncomment and your own, if you like
 # google_analytics: XX
@@ -12,29 +12,25 @@ url: ""
 
 # Footer info
 affiliation: >
-  Richard Feynman<br/>
-  Professor of Physics<br/>
-  California Institute of Technology
+  Cho Research Group<br/>
+  Department of Chemistry<br/>
+  University of Houston
 
 location: >
-  California Institute of Technology<br/>
-  1200 E California Blvd<br/>
-  Pasadena, CA 91125
+  University of Houston<br/>
+  3585 Cullen Blvd. Rm 221<br/>
+  Houston, TX 77204
 
 contact: >
-  <a href="mailto:richard@university.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Richard via email</a> <br/>
-  <a href="https://github.com/sbryngelson/academic-website-template"><i class="fa fa-github fa-1x"></i> Use this site as a template!</a>
+  ycho12@uh.edu
 
 # Pages shown in navbar
 nav_pages:
-  - name: about
-  - name: publications
-  - name: talks
   - name: research
-  - name: software
-  - name: team
-  - name: teaching
-  - name: blogs
+  - name: people
+  - name: publications
+  - name: news
+  - name: openings
 
 include:
   - .htaccess
@@ -62,8 +58,8 @@ kramdown:
 plugins: ["jekyll/scholar"]
 
 scholar:
-  last_name: Doe
-  first_name: [John]
+  last_name: Cho
+  first_name: [Yeongsu]
 
   style: citesty
   locale: en

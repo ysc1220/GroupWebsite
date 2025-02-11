@@ -1,17 +1,17 @@
 ---
 title: "News"
-layout: textlay
+layout: gridlay
 sitemap: false
-permalink: /allnews.html
+permalink: /news/
 ---
 
-## News
+<p style="font-size:300%; text-align:center;"> News </p>
 
-<div class="jumbotron">
 {% for article in site.data.news %}
+<div class="jumbotron">
 <b>{{ article.date }}</b>
 
 {{ article.headline }}
+</div>
 {% endfor %}
 
-</div>

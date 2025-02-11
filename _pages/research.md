@@ -8,6 +8,8 @@ permalink: /research/
 <style>
 img{
   border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .col-md-3 {
   margin-top:10px;
@@ -30,12 +32,17 @@ iframe {
 }
 </style>
 
-## Research
+<p style="font-size:300%; text-align:center;"> Research </p>
 
-<div class="jumbotron">
-<div class="col-md-12 col-sm-12">
-<h4>Example Research</h4>
+<b style="font-size:150%">Exploring New Frontiers in Hybrid Organic-Inorganic Materials for Sustainable Energy</b>
 
-Example description
+Hybrid organic-inorganic materials have emerged as promising candidates for optoelectronic applications. While the performance of these materials is governed by excited state physics, their inherent complexity has limited comprehensive and effective theoretical analysis. We address these challenges by developing cost-efficient computational approaches tailored to hybrid organic-inorganic materials. By exploring how structural features influence their properties, we aim to exploit the tunability of hybrid organic-inorganic materials and design materials with optimized performance.
+
+
+<div style="text-align: center">
+<img src="/images/MOC_blender.png" width="50%" style="border-radius:0%"/><br/>
 </div>
-</div>
+
+We investigate the behavior of electrons and atomic vibrations within materials, as well as interactions between them. Our goal is to uncover the mechanisms underlying electron excitation, relaxation, and diffusion in hybrid organic-inorganic materials.
+
+

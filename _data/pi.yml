@@ -1,17 +1,17 @@
-- name: Dr. Richard Feynman
-  photo: headshot.jpg
-  info: Richard C. Tolman Professor, California Institute of Technology
-  email: richard@university.edu
-  github: https://github.com/
-  researchgate: https://www.researchgate.net/
-  scholar: https://scholar.google.com/citations?user=B7vSqZsAAAAJ
-  cv: cv/cv.pdf
+- name: Yeongsu Cho
+  photo: Yeongsu_2016.jpg
+  info: Assistant Professor, University of Houston
+  email: ycho12@uh.edu
+  scholar: https://scholar.google.com/citations?user=7FYfuLIAAAAJ&hl=en&oi=ao
+  cv: ../cv/CV_240902.pdf
   # Change the items in "education" you have (up to 6)
   education:
     [
-      "(1942) Ph.D. Physics, Princeton University",
-      "(1939) B.S. Physics, Massachusetts Institute of Technology",
+      "Postdoctoral Associate, Chemical Engineering, MIT",
+      "Ph.D. Chemistry, Columbia University",
+      "M.S. Chemistry, University of Chicago",
+      "B.S. Chemistry and Physics, Seoul National University"
     ]
 
   educationshort:
-    ["(1942) Ph.D. Physics, Princeton", "(1939) B.S. Physics, MIT"]
+    ["Postdoc, MIT", "Ph.D. Columbia", "M.S. UChicgao", "B.S. SNU"]

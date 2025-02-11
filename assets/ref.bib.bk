@@ -7,7 +7,7 @@
    ISSN = {0935-9648},
    DOI = {10.1002/adma.202312382},
    year = {2024},
-   
+   type = {Journal Article}
 }
 
 @article{RN19,
@@ -18,7 +18,7 @@
    ISSN = {1936-0851},
    DOI = {10.1021/acsnano.4c15118},
    year = {2024},
-   
+   type = {Journal Article}
 }
 
 @article{RN1,
@@ -32,7 +32,7 @@
    ISSN = {0897-4756},
    DOI = {10.1021/acs.chemmater.4c00653},
    year = {2024},
-   
+   type = {Journal Article}
 }
 
 @article{RN20,
@@ -45,7 +45,7 @@
    ISSN = {0021-9606},
    DOI = {10.1063/5.0201934},
    year = {2024},
-   
+   type = {Journal Article}
 }
 
 @article{RN18,
@@ -57,7 +57,7 @@
    ISSN = {1616-301X},
    DOI = {10.1002/adfm.202414914},
    year = {2024},
-   
+   type = {Journal Article}
 }
 
 @article{RN3,
@@ -71,7 +71,7 @@
    ISSN = {0002-7863},
    DOI = {10.1021/jacs.4c13196},
    year = {2024},
-   
+   type = {Journal Article}
 }
 
 @article{RN6,
@@ -85,7 +85,7 @@
    ISSN = {0935-9648},
    DOI = {10.1002/adma.202210221},
    year = {2023},
-   
+   type = {Journal Article}
 }
 
 @article{RN5,
@@ -99,7 +99,7 @@
    ISSN = {0002-7863},
    DOI = {10.1021/jacs.2c11896},
    year = {2023},
-   
+   type = {Journal Article}
 }
 
 @article{RN4,
@@ -113,7 +113,7 @@
    ISSN = {0002-7863},
    DOI = {10.1021/jacs.3c05984},
    year = {2023},
-   
+   type = {Journal Article}
 }
 
 @article{RN7,
@@ -127,7 +127,7 @@
    ISSN = {1932-7447},
    DOI = {10.1021/acs.jpcc.2c07111},
    year = {2023},
-   
+   type = {Journal Article}
 }
 
 @article{RN8,
@@ -140,7 +140,7 @@
    abstract = {Ab initio multi-reference configuration interaction (MRCI) and coupled cluster singles doubles and perturbative triples [CCSD(T)] levels of theory were used to study ground and excited electronic states of HfCO. We report potential energy curves, dissociation energies (De), excitation energies, harmonic vibrational frequencies, and chemical bonding patterns of HfCO. The 3Σ− ground state of HfCO has an 1σ22σ21π2 electron configuration and a ∼30 kcal mol−1 dissociation energy with respect to its lowest-energy fragments Hf(3F) + CO(X1Σ+). We further evaluated the De of its isovalent HfCX (X = S, Se, Te, Po) series and observed that they increase linearly from the lighter HfCO to the heavier HfCPo with the dipole moment of the CX ligand. The same linear relationship was observed for TiCX and ZrCX. We utilized the CCSD(T) benchmark values of De, excitation energy, and ionization energy (IE) values to evaluate density functional theory (DFT) errors with 23 exchange–correlation functionals spanning GGA, meta-GGA, global GGA hybrid, meta-GGA hybrid, range-separated hybrid, and double-hybrid functional families. The global GGA hybrid B3LYP and range-separated hybrid ωB97X performed well at representing the ground state properties of HfCO (i.e., De and IE). Finally, we extended our DFT analysis to the interaction of a CO molecule with a Hf surface and observed that the surface chemisorption energy and the gas-phase molecular dissociation energy are very similar for some DFAs but not others, suggesting moderate transferability of the benchmarks on these molecules to the solid state.},
    DOI = {10.1039/D3CP03550F},
    year = {2023},
-   
+   type = {Journal Article}
 }
 
 @article{RN10,
@@ -154,7 +154,7 @@
    ISSN = {1936-0851},
    DOI = {10.1021/acsnano.2c06204},
    year = {2022},
-   
+   type = {Journal Article}
 }
 
 @article{RN9,
@@ -168,7 +168,7 @@
    ISSN = {1549-9618},
    DOI = {10.1021/acs.jctc.2c01033},
    year = {2022},
-   
+   type = {Journal Article}
 }
 
 @article{RN11,
@@ -182,7 +182,7 @@
    ISSN = {1549-9618},
    DOI = {10.1021/acs.jctc.2c00087},
    year = {2022},
-   
+   type = {Journal Article}
 }
 
 @article{RN12,
@@ -196,7 +196,7 @@
    ISSN = {0031-9007},
    DOI = {10.1103/PhysRevLett.126.216402},
    year = {2021},
-   
+   type = {Journal Article}
 }
 
 @article{RN13,
@@ -210,7 +210,7 @@
    ISSN = {0002-7863},
    DOI = {10.1021/jacs.0c11674},
    year = {2020},
-   
+   type = {Journal Article}
 }
 
 @article{RN15,
@@ -224,7 +224,7 @@
    ISSN = {1530-6984},
    DOI = {10.1021/acs.nanolett.9b02645},
    year = {2019},
-   
+   type = {Journal Article}
 }
 
 @article{RN16,
@@ -238,7 +238,7 @@
    ISSN = {1748-3387},
    DOI = {10.1038/s41565-019-0520-0},
    year = {2019},
-   
+   type = {Journal Article}
 }
 
 @article{RN14,
@@ -252,7 +252,7 @@
    ISSN = {1948-7185},
    DOI = {10.1021/acs.jpclett.9b02491},
    year = {2019},
-   
+   type = {Journal Article}
 }
 
 @article{RN17,
@@ -266,6 +266,6 @@
    ISSN = {2469-9950},
    DOI = {10.1103/PhysRevB.97.041409},
    year = {2018},
-   
+   type = {Journal Article}
 }
 
