@@ -1,10 +1,37 @@
+- name: Samuel Bekoe
+  photo: SamuelBekoe.jpg
+  position: Postdoctoral Researcher
+  email: sbekoe@cougarnet.uh.edu
+  scholar: https://scholar.google.com/citations?user=xHRAhmcAAAAJ&hl=en&oi=ao
+  cv: ../cv/SamuelBekoe.pdf
+  education: [
+  "Postdoctoral Scholar, University of California, Los Angeles",
+  "Ph.D. Computational and Theoretical Chemistry, University of California, Irvine",
+  "B.Sc. Chemistry, Kwame Nkrumah University of Science and Technology"
+]
+
 - name: Md. Saiful Islam
   photo: MdSaifulIslam.jpeg
-  info: Ph.D. student, started Nov 2024
+  position: Ph.D. student
   email: mislam35@cougarnet.uh.edu
   scholar: https://scholar.google.com/citations?user=pQ08orIAAAAJ&hl=en
   cv: ../cv/MdSaifulIslam.pdf
+  education: [
+  "M.S. Chemistry, University of Dhaka",
+  "B.S. Chemistry, University of Dhaka"
+]
+  linkedin: https://www.linkedin.com/in/md-saiful-islam-4b95632a3/
+
+- name: Lakshmi Prasanna Obulasetti
+  photo: LakshmiPrasannaObulasetti.jpeg
+  position: Master's student in Data Science
+  email: lobulase@cougarnet.uh.edu
+  cv: ../cv/LakshmiPrasannaObulasetti.pdf
+  education: [
+  "B.T. Electronics and Communication Engineering, Vellore Institute of Technology AP University"
+]
+  linkedin: https://www.linkedin.com/in/lakshmiprasannaobulasetti/
 
 - name: "This could be you !"
   photo: UH_logo.png
-  info: See <a href="/openings">Openings</a> for more info
+  position: See <a href="/openings">Openings</a> for more info

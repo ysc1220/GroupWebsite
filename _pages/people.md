@@ -16,8 +16,8 @@ permalink: /people/
 </div>
 <div class="col-sm-8 col-xs-12">
 <h4>{{ member.name }}</h4>
+<b>{{member.position}}</b> <br>
 {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank">{{ member.email }}</a> {% endif %} 
-<i>{{ member.info }}</i><br>
 
 {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa fa-home fa-2x"></i></a> {% endif %} {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %} {% if member.cv %} <a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a> {% endif %} {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> {% endif %} {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %}
 
@@ -51,14 +51,37 @@ permalink: /people/
 </div>
 <div class="col-sm-4 col-xs-12">
   <h4>{{ member.name }}</h4>
+  <b>{{member.position}}</b> <br>
   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank">{{ member.email }}</a> {% endif %} 
-  <i>{{ member.info }}<br></i>
+  
+<div style="margin-bottom: 10px" markdown="0">
+  {% if member.website %}
+    <a href="{{ member.website }}" target="_blank"><i class="fa fa-home fa-2x"></i></a>
+  {% endif %}
+  {% if member.scholar %}
+    <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+  {% endif %}
+  {% if member.cv %}
+    <a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a>
+  {% endif %}
+  {% if member.github %}
+    <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+  {% endif %}
+  {% if member.researchgate %}
+    <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a>
+  {% endif %}
+  {% if member.linkedin %}
+    <a href="{{ member.linkedin }}" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+  {% endif %}
+</div>
 
-{% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa fa-home fa-2x"></i></a> {% endif %}
-{% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %}
-{% if member.cv %} <a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a> {% endif %}
-{% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> {% endif %}
-{% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %}
+<ul class="edu-list" style="margin-top: 10px; padding-left: 20px;">
+  {% for degree in member.education %}
+    <li>{{ degree }}</li>
+  {% endfor %}
+</ul>
+
+<br>
 
 </div>
 <!-- </div> -->

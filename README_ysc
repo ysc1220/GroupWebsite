@@ -1,0 +1,15 @@
+## How to publish a website
+
+1. Generate files in _site 
+In the root directory,
+$ jekyll build
+
+2. Connect to NSM server
+- Open finder window and press cmd+K
+- server address is smb://nsmn1.uh.edu/users/ycho22
+- username: ycho22, password: UH password
+
+3. Copy all the files in _site to ycho22
+
+4. Go to ysc.chem.uh.edu and check if all the changes are applied properly.
+
